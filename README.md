@@ -12,6 +12,10 @@ const interval = 3000; //Heartbeat interval (ms)
 const data = {}; //Additional data to be send to the server
 
 let client = new HeartSuiteClient(server, port, interval, data);
+
+client.on('beat', function(time){
+  console.log(`Beat sent : ${time}`);
+});
 ```
 
 ## Issues
