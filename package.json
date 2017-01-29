@@ -1,0 +1,25 @@
+{
+  "name": "heartsuite-client",
+  "version": "1.0.0",
+  "description": "Heartsuite Client that send heartbeats to a Heartsuite server",
+  "main": "lib/client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "heartsuite",
+    "heartbeat",
+    "udp",
+    "client"
+  ],
+  "author": "izanagi1995",
+  "license": "MIT",
+  "dependencies": {
+    "getmac": "^1.2.1",
+    "performance-now": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/izanagi1995/heartsuite-client"
+  }
+}
